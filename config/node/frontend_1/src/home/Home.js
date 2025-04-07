@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import zdjecie from "./01_mapa_wat.png";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home">
@@ -13,12 +14,14 @@ function Home() {
         </div>
         <div className="home_right">
           <h1 className="home_title">
-            <span style={{ color: "#276cd3", opacity: 0.7 }}>GEO</span>Portal
+            <span style={{ color: "#276cd3", opacity: "0.75" }}>GEO</span>Portal
           </h1>
           <div className="home_subtitle">
             Strona internetowa z interaktywną mapą
           </div>
-          <button className="home_button">WCHODZĘ!</button>
+          <Link to="services">
+            <button className="home_button">WCHODZĘ!</button>
+          </Link>
         </div>
       </div>
     </div>
