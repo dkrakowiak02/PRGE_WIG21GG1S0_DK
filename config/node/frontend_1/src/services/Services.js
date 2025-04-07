@@ -14,19 +14,28 @@ function Services() {
           <div className="services_top">
             <h1 className="home_title">Dostępne usługi</h1>
           </div>
+          <div className="services_buttons">
+            <button className="services_button" id="mapa">
+              MAPA
+            </button>
+            <button className="services_button" id="lista">
+              WYKAZ lub LISTA czegoś
+            </button>
+          </div>
         </div>
+
         <div className="services_bottomRight">
           <div className="services_imageItem">
             <img src={dziekan_wig} alt="" />{" "}
           </div>
           <div className="services_imageItem">
+            <img src={promocja_wat} alt="" />{" "}
+          </div>
+          <div className="services_imageItem">
+            <img src={promocja_wat} alt="" />{" "}
+          </div>
+          <div className="services_imageItem">
             <img src={dziekan_wig} alt="" />{" "}
-          </div>
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />{" "}
-          </div>
-          <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />{" "}
           </div>
         </div>
       </div>
